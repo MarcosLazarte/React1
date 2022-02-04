@@ -80,7 +80,8 @@ const ListadoNombres = () => {
                         <input
                             className='btn btn-info btn-block'
                             type="submit"
-                            value={modoEdicion? 'Editar nombre' : 'Registrar nombre'}/>
+                            value={modoEdicion? 'Editar nombre' : 'Registrar nombre'}
+                        />
                     </form>
                     {
                         error != null ? (
