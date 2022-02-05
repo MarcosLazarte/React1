@@ -13,12 +13,12 @@ const Perfil = () => {
     useEffect( () => {
         obtenerUsuarios()
     }, [])  
-        return <div>
-            <h4>Perfil de {usuario}</h4>
-            <p>Nombre: {usuario.name}</p>
-            <p>Email: {usuario.email}</p>
-            <small>Telefono: {usuario.phone}</small>
-        </div>
+    return <div>
+        <h4>Perfil</h4>
+        <p>Nombre: {usuario.name}</p>
+        <p>Email: {usuario.email}</p>
+        <small>Telefono: {usuario.phone}</small>
+    </div>
 }
 
 export default Perfil

@@ -19,7 +19,7 @@ function App() {
       <Link to="/usuarios">Usuarios</Link>
       <Routes>
         <Route path="/inicio/:nombre" element={<Inicio/>}/>
-        <Route path='/usuarios/:id' element={<Perfil/>}/>
+        <Route path='/usuario/:id' element={<Perfil/>}/>
         <Route path='/usuarios' element={<Usuarios/>}/>
         <Route path="/" element={<Base/>}/>
 
