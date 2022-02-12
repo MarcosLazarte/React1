@@ -55,7 +55,7 @@ const Menu = () => {
           {
             usuario ?
             (
-              <button onClick={cerrarSesion} className='btn btn-danger'>Cerrar sesion</button>
+              <button onClick={cerrarSesion} className='btn btn-danger float-end'>Cerrar sesion</button>
             ) 
             :
             (
